@@ -12535,11 +12535,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LocalHost\\source\\repos\\SistemaDeRecomendacion\\SistemaDeRecomendacion\\SistemaDeRecomendacion.csproj",
+      "projectUniqueName": "C:\\Users\\LocalHost\\Source\\Repos\\SistemaDeRecomendacion10\\SistemaDeRecomendacion\\SistemaDeRecomendacion.csproj",
       "projectName": "SistemaDeRecomendacion",
-      "projectPath": "C:\\Users\\LocalHost\\source\\repos\\SistemaDeRecomendacion\\SistemaDeRecomendacion\\SistemaDeRecomendacion.csproj",
+      "projectPath": "C:\\Users\\LocalHost\\Source\\Repos\\SistemaDeRecomendacion10\\SistemaDeRecomendacion\\SistemaDeRecomendacion.csproj",
       "packagesPath": "C:\\Users\\LocalHost\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LocalHost\\source\\repos\\SistemaDeRecomendacion\\SistemaDeRecomendacion\\obj\\",
+      "outputPath": "C:\\Users\\LocalHost\\Source\\Repos\\SistemaDeRecomendacion10\\SistemaDeRecomendacion\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
