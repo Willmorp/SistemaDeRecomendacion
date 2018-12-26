@@ -17,12 +17,13 @@ namespace SistemaDeRecomendacion.Models
 
         public class InputModel
         {
-            [Required]
-            [EmailAddress]
+            [Required(ErrorMessage ="<font color='red'>El campo correo electrónico es obligatorio.</font>")]
+            [EmailAddress(ErrorMessage = "<font color='red'>El correo electrónico no es una direccion de correo electrónico válida.<font>")]
             public string Email { get; set;}
 
-            [Required]
+            [Required(ErrorMessage = "<font color='red'>El campo correo electrónico es obligatorio.</font>")]
             [DataType(DataType.Password)]
+            [StringLength (100, ErrorMessage = "<font color='red'>El número de caracteres del {0} debe ser al menos {2}.</font>",MinimumLength =6)]
             public string Password { get; set; }
         }
 
