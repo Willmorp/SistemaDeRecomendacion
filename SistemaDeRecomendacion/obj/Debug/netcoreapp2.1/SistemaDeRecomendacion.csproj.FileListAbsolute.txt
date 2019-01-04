@@ -79,3 +79,7 @@ C:\Users\Wiwiwi\Source\Repos\SistemaDeRecomendacion\SistemaDeRecomendacion\obj\D
 C:\Users\Wiwiwi\Source\Repos\SistemaDeRecomendacion\SistemaDeRecomendacion\obj\Debug\netcoreapp2.1\Razor\Areas\Principal\Views\Principal\Index.g.cshtml.cs
 C:\Users\Wiwiwi\Source\Repos\SistemaDeRecomendacion\SistemaDeRecomendacion\obj\Debug\netcoreapp2.1\Razor\Areas\Usuarios\Views\Usuarios\Index.g.cshtml.cs
 C:\Users\Wiwiwi\Source\Repos\SistemaDeRecomendacion\SistemaDeRecomendacion\obj\Debug\netcoreapp2.1\Razor\Views\Error\Error.g.cshtml.cs
+C:\Users\Wiwiwi\Source\Repos\SistemaDeRecomendacion\SistemaDeRecomendacion\obj\Debug\netcoreapp2.1\Razor\Areas\Usuarios\Pages\Registrar\Registrar.g.cshtml.cs
+C:\Users\Wiwiwi\Source\Repos\SistemaDeRecomendacion\SistemaDeRecomendacion\obj\Debug\netcoreapp2.1\Razor\Areas\Usuarios\Pages\_ViewImports.g.cshtml.cs
+C:\Users\Wiwiwi\Source\Repos\SistemaDeRecomendacion\SistemaDeRecomendacion\obj\Debug\netcoreapp2.1\Razor\Areas\Usuarios\Pages\_ViewStart.g.cshtml.cs
+C:\Users\Wiwiwi\Source\Repos\SistemaDeRecomendacion\SistemaDeRecomendacion\obj\Debug\netcoreapp2.1\Razor\Areas\Usuarios\Views\_ViewImports.g.cshtml.cs

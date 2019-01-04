@@ -5,28 +5,30 @@
     top:0;
     margin: 0;
     height: calc(100% + 60px);
+    width:20%;
     background-color: #fff;
     overflow-y:auto;
     will-change:transform;
 }
 
-@media(max-widht : 1024px){
+@media(max-width : 1024px){
     .side-nav{
         display:none;
     }
 }
  
 @media screen and (max-width: 800px){
-    .container{
-        max-width:60%;
+    .container {
+        max-width: 55% !important;
+        margin: -244px 0px 0px 267px !important;
     }
     .side-nav {
-       max-width:20%;
-       display:block;
+        max-width: 40%;
+        display: none;
     }
     .container2 {
-        width: 95%;
-        margin: -300px 30px 0px;
+        width: 95% !important;
+        margin: -244px 0px 0px 298px !important;
     }
 }
     

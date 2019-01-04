@@ -1,0 +1,41 @@
+﻿@page
+@model RegistrarModel
+@{
+}
+<div class="container2" style="margin: -239px 0px 0px 129px">
+    <form  method="post" enctype="multipart/form-data">
+        <div class="modal-content">
+            <center>
+                <h5>Registrar Usuarios</h5>
+            </center>
+            <div class="row">
+                <div class="col s9 m6">
+                    <div class="card">
+                        <div class="card-content while-text">
+                            <center>
+                                <span class="card-title blue-grey-text">Foto o imagen</span>
+                                <output id="fotos">
+                                    <img src="~/images/fotos/default.png" />
+                                </output>
+                            </center>
+                        </div>
+                        <div class="card-action" style="    padding: 0px 23px;">
+                            <a>
+                                <div class="file-field">
+                                    <div class="btn waves-effect waves-light" style="float: none;">
+                                        <span>Subir</span>
+                                        <input accept="image/*" type="file" id="files" name="files" value="" />
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+
+            </div>
+        </div>
+        
+</form>
+</div>

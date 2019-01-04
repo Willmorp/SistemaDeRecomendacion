@@ -92,7 +92,7 @@ namespace SistemaDeRecomendacion
                 routes.MapAreaRoute(
                     "Principal", 
                     "Principal", 
-                    "{controller=Principal}/{action=Index}/{id?}");
+                    "{controller=PrincipalMASNAKI}/{action=Index}/{id?}");
 
                 routes.MapAreaRoute(
                     "Usuarios",

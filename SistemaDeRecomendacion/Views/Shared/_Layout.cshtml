@@ -25,7 +25,7 @@
 <body>
 
     <nav>
-        <div class="nav-wrapper cyan darken-2">
+        <div class="nav-wrapper cyan darken-2"> 
             <a href="#" class="brand-logo center">
                 Sistema De Recomendación
             </a>
@@ -37,7 +37,6 @@
                             Close
                         </a>
                     </ul>
-
                     <a href="#" data-target="slide-out"
                        class="btn-floating btn-large waves-effect
                        waves-light cyan darken-2 sidenav-trigger"></a>
@@ -50,16 +49,14 @@
             <div class="user-view cyan darken-2">
                 <img id="foto1" class="circle responsive-img valign profile-image" src="~/images/fotos/default.png" alt="Alternate Text" />
                 <p class="white-text" id="name1">@UserManager.GetUserName(User)</p>
-                <p class="white-text" id="role1"></p>
+                <p class="white-text" id="role1">@ViewData["Roles"]</p>
             </div>
         </li>
         <li>
             <a asp-area="Principal" asp-controller="Principal" asp-action="Index" onclick="">
-                Inicio
-            </a>
+                Inicio            </a>
             <a asp-area="Usuarios" asp-controller="Usuarios" asp-action="Index" onclick="">
-                Usuarios
-            </a>
+                Usuarios            </a>
 
         </li>
         <li>
@@ -81,15 +78,16 @@
                                         <img src="~/images/fotos/default.png" id="foto2" 
                                              class="circle responsive-img valign profile-image"  
                                              alt="Alternate Text" />
-
                                     </div>
+                                </div>
+                                <div class="row">
                                     <div class="col col s8 m8 18">
                                         <p class="white-text" id="name2">@UserManager.GetUserName(User)</p>
                                         <p class="white-text" id="role2">@ViewData["Roles"]</p>
                                     </div>
-
                                 </div>
                             </li>  
+                               
                             <div class="collection">
                                 <a asp-area="Principal" asp-controller="Principal" asp-action="Index" onclick="" id="enlace1"
                                 class="collection-item">Inicio</a>
@@ -115,6 +113,8 @@
 
         <environment include="Development">
             <script src="~/lib/jquery/dist/jquery.js"></script>
+            <script src="~/js/Principal.js" asp-append-version="true"></script>
+
             @*<script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>*@
             <script src="~/js/site.js" asp-append-version="true"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
